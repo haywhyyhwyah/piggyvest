@@ -81,6 +81,9 @@ a {
     border-radius: 20px;
     padding: 15px 30px 10px 30px;
     line-height: 19px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 
@@ -101,23 +104,73 @@ p {
     width: 24px;
 }
 
-.card:hover {
-    background-color: rgb(81, 81, 239);
-    color: white;
+.done1:hover {
+    background-color: #0f60d6;
+}
+
+.done1 p, .text1{
+    color: #0f60d6;
+}
+
+.done2:hover{
+    background-color: #2295F2;
 }
 
 .done3:hover{
-    background-color: rgb(42, 237, 42);
+    background-color: #39C076;
+}
+
+.done2 p, .text2{
+    color: #2295F2;
+}
+.done3 p, .text3{
+    color: #39C076;
+}
+
+.card:hover p, .card:hover .text1, .card:hover .text2, .card:hover .text3, .card:hover .text4, .card:hover .text5, .card:hover .text6, .card:hover .subtext
+{
+    color: white;
 }
 
 .done4:hover{
-    background-color: palevioletred;
+    background-color: #E5489B;
+}
+
+.done4 p, .text4{
+    color: #E5489B;
 }
 
 .done5:hover{
-    background-color: black;
+    background-color: #0C1825;
 }
 
+.done5 p, .text5{
+    color: #0C1825;
+}
+
+
 .done6:hover{
-    background-color: orangered;
+    background-color: #FF783C;
+}
+
+.done6 p, .text6{
+    color: #FF783C;
+}
+
+.card:hover .arrow{
+    display: block;
+}
+
+.arrow{
+    width: 24px;
+    height: 24px;
+}
+
+.parrow{
+    display: flex;
+    gap: 10px;
+}
+
+.card:hover .arrow{
+    content: url(./image/subdirectory_arrow_right_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png);
 }
