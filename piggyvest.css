@@ -37,6 +37,13 @@ a {
 
 .mother {
     justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 23px 0;
+    z-index: 1;
+    
 }
 
 .b1 {
@@ -198,3 +205,106 @@ p {
     display: flex;
 }
 
+.phone{
+    display: none;
+}
+
+.card:hover .phone{
+    display: block;
+}
+
+.herobutton{
+    border: none;
+    border-radius: 15px;
+    background-color: #2295F2;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.herobutton:hover{
+    background-color: black;
+}
+
+.herobutton:hover .btnimage{
+    content: url(./image/chevron_right_24dp_00D7EA_FILL0_wght400_GRAD0_opsz24.png);
+}
+
+.herobutton:hover .save{
+    content: url(./image/save_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png);
+}
+
+.betterway{
+    font-size: 48px;
+    font-weight: bold;
+    color: #122231;
+}
+
+.herotext{
+    font-size: 20px;
+    color: gray;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.herobuttons{
+    display: flex;
+    gap: 15px;
+}
+
+.herobuttons button{
+    border: none;
+    background-color: #122231;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.section1{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionbackground{
+    width: 480px;
+    height: 480px;
+    background-image: url(./image/image_fx.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    position: relative;
+}
+
+.sectionimg1{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 50px;
+    position: absolute;
+    left: -70px;
+}
+
+.sectionimg2{
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    margin-top: 15px;
+    position: absolute;
+    right: -80px;
+}
