@@ -308,3 +308,163 @@ p {
     position: absolute;
     right: -80px;
 }
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.dropdown-wrapper{
+    position: relative;
+}
+
+.dropdown-items{
+    width: 400px;
+    height: 210px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    display: none;
+}
+
+.dropdown-wrapper:hover .dropdown-items{
+    display: inline-flex;
+}
+
+.dropdownitems1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdownitems2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdown-items:hover{
+    cursor: pointer;
+}
+
+.item{
+    display: flex;
+    gap: 10px;
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+}
+
+.icon{
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon1{
+    background-color: #eff6ff;
+}
+
+.icon2{
+    background-color: ddf5e8;
+}
+
+.icon3{
+    background-color: #f0f0f0;
+}
+
+.icon4{
+    background-color: #e7f4ff;
+}
+
+.icon5{
+    background-color: #fff1f9;
+}
+
+.icon6{
+    background-color: #ffece3;
+}
+
+.icontext1, .icontext2, .icontext3, .icontext4, .icontext5, .icontext6{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item:hover{
+    background-color: #edf0f0;
+
+    .icontext1{
+        color: #2295f2;
+    }
+
+    .icontext2{
+        color: #39c277;
+    }
+
+    .icontext4{
+        color: #2295f2;
+    }
+
+    .icontext5{
+        color: #ea4fa2;
+    }
+
+    .icontext6{
+        color: #ff4e00;
+    }
+}
+
+.itemtext{
+    line-height: 20px;
+}
+
+.icontext{
+    font-size: 10px;
+}
+
+.itema{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+}
+
+.itema:hover{
+    background-color: #f8fbfb;
+}
+
+.dropdowna-items{
+    width: 400px;
+    height: 210px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 50px 5px 5px;
+    /* margin-top: 150px; */
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    position: absolute;
+    
+}
+
+.icontext1a{
+    color: #3D4f60;
+}
+
+.itema:hover .icontext1a{
+    color: #000000;
+}
+
+.dropdownwrapper2{
+    position: relative;
+}
+
+.dropdownwrapper2:hover .dropdowna-items{
+    display: inline-flex;
+}
